@@ -1,0 +1,27 @@
+Quantitative data collection, cleaning, and analyses were carried out in R 4.3.1 using the following packages:  
+dplyr 
+pdftools 
+quanteda 
+quanteda.textplots 
+quanteda.textmodels 
+seededlda 
+tidytext 
+textdata 
+progress 
+furrr 
+tidyr 
+httr 
+tictoc 
+stringr 
+fs 
+ggplot2 
+textcat 
+textstem 
+tm 
+slam 
+purrr 
+wordcloud2 
+wordcloud 
+reshape2 
+RColorBrewer 
+Report 
