@@ -1,0 +1,76 @@
+---
+title: "240709_EPHA paper_R packages and citations"
+author: "HEM"
+date: "2024-07-09"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Environment for "Health in Mobility Planning: An assessment of how health is considered in Sustainable Urban Mobility Plans"
+
+# Data collection
+```{r}
+library(dplyr)
+library(pdftools)
+library(quanteda)
+library(quanteda.textplots)
+library(quanteda.textmodels)
+library(seededlda)
+library(tidytext)
+library(textdata)
+library(progress)
+library(furrr)
+library(tidyr)
+library(httr)
+library(tictoc) 
+library(stringr)
+library(fs)  
+library(ggplot2)
+```
+
+# Data cleaning, first analysis
+
+```{r}
+library(textcat)
+library(dplyr)
+library(quanteda)
+library(stringr)
+library(pdftools)
+library(httr)
+library(progress)
+```
+
+# Dictionary application, comparing native speaker translations with Google Translate translations
+
+```{r}
+library(dplyr)
+library(quanteda)
+library(textstem)
+library(tm)
+library(slam)
+library(purrr)
+library(tidyr)
+```
+
+# Results
+
+```{r}
+library(wordcloud2)
+library(wordcloud)
+library(dplyr)
+library(ggplot2)
+library(reshape2)
+library(RColorBrewer)
+```
+
+# Full citations
+
+```{r}
+library(report)
+cite_packages()
+```
+
+
